@@ -1,0 +1,74 @@
+/* NAv BAr */
+.navbar-nav a {
+  font-size: 18px;
+}
+.carsousel-item img {
+  height: 550px;
+}
+
+.cartProductContainer {
+  border: 1px solid #000;
+  margin: 5px;
+}
+.cartProductContainer img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  background-size: contain;
+}
+
+.total {
+  font-size: 3rem;
+}
+.statusContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  position: sticky;
+  top: 0;
+  height: 300px;
+}
+.btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+.app-main {
+  display: flex;
+  justify-content: center;
+  height: 100vh; /* or another value if you have other elements on the page */
+  position: relative;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%; /* Adjust this value to move the container up or down */
+  transform: translateY(-50%);
+}
+
+.input-container input {
+  margin-bottom: 10px;
+}
+.save-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50; /* for example */
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
